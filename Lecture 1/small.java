@@ -52,31 +52,15 @@
         
 //     }
 // }
-// import java.util.Scanner;
-// class small{
-//     public static void main(String args[]){
-//         System.out.print("Enter your age:");
-//         Scanner obj=new Scanner(System.in);
-//         int age=obj.nextInt();
-//         if(age>=18)
-//         System.out.println("Eligible");
-//         else
-//         System.out.println("not Eligible hai");
-//     }
-// }
-
 import java.util.Scanner;
 class small{
-    public static void main(String args[])
-    {
-        System.out.print("Enter your age");
+    public static void main(String args[]){
+        System.out.print("Enter your age:");
         Scanner obj=new Scanner(System.in);
         int age=obj.nextInt();
         if(age>=18)
-        System.out.println("Eligible");
+        System.out.println("Eligible to vote");
         else
         System.out.println("Not eligible");
     }
 }
-
-
