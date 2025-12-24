@@ -42,25 +42,39 @@
 // import java.util.Scanner;
 // class small{
 //     public static void main(String args[]){
-//         System.out.println("Enter your age:");
+//         System.out.print("Enter your age:");
 //         Scanner obj=new Scanner(System.in);
 //         int age=obj.nextInt();
 //         if(age>=18)
-//         System.out.println("Eligible");
+//         System.out.println("Eligible to vote");
 //         else
 //         System.out.println("Not eligible");
-        
 //     }
 // }
+//6. Add two numbers
 import java.util.Scanner;
 class small{
-    public static void main(String args[]){
-        System.out.print("Enter your age:");
-        Scanner obj=new Scanner(System.in);
-        int age=obj.nextInt();
-        if(age>=18)
-        System.out.println("Eligible to vote");
-        else
-        System.out.println("Not eligible");
+    public static void main(String args[])
+    {
+        int num1;
+        int num2;
+        System.out.println("Enter number 1:");
+        Scanner obj1=new Scanner(System.in);
+        num1=obj1.nextInt();
+
+        System.out.println("Enter number 2:");
+        Scanner obj2=new Scanner(System.in);
+        num2=obj2.nextInt();
+        
+        System.out.println("total:" +(num1+num2));
+        
+
     }
 }
+
+//7. Even odd
+//8. check positive negative
+//9. for loop 1-5
+//10. While loop
+//11. Simple greet method
+//13.Class and object
