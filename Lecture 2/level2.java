@@ -43,24 +43,36 @@ public class level2 {
 
 
 // Count even and odd numbers
-int x[]={1,2,3,4,5,6,7,89,0};
-int even=0;
-int odd=0;
-for(int i=0;i<x.length;i++){
-    if(x[i]%2==0)
-    even++;
-    else
-    odd++;
-}
-System.out.println("Even nos:"+ even);
-System.out.println("Odd nos:"+ odd);
-
-
+// int x[]={1,2,3,4,5,6,7,89,0};
+// int even=0;
+// int odd=0;
+// for(int i=0;i<x.length;i++){
+//     if(x[i]%2==0)
+//     even++;
+//     else
+//     odd++;
+// }
+// System.out.println("Even nos:"+ even);
+// System.out.println("Odd nos:"+ odd);
 
 
 // Count positive, negative, zero
+int arr[]={1,2,3,4,0,9,7,5,-5,-7,-3};
+int pos=0; int neg=0; int zero=0;
+for(int i=0;i<arr.length;i++){
+    if(arr[i]>0)
+    pos++;
+    else if(arr[i]<0)
+    neg++;
+    else
+    zero++;
+}
+System.out.println("Positive num:" + pos);
+System.out.println("Negative num:" + neg);
+System.out.println("Zeros num:" + zero);
 
 // Reverse an array
+
 // Copy one array into another
 // Swap first and last element
 // Swap alternate elements
