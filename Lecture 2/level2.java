@@ -14,16 +14,24 @@ public class level2 {
 // System.out.print("Maximum element:"+max);
 
 // Find minimum element
-int arr[]={1,-5,-9,78,56,-0};
-int min=arr[0];
-for(int i=1;i<arr.length;i++)
-{
-    if(arr[i]<min){
-        min=arr[i];
-    }
-}
-System.out.print("Minimum element:"+min);
+// int arr[]={1,-5,-9,78,56,-0};
+// int min=arr[0];
+// for(int i=1;i<arr.length;i++)
+// {
+//     if(arr[i]<min){
+//         min=arr[i];
+//     }
+// }
+// System.out.print("Minimum element:"+min);
+
 // Sum of all elements
+int arr[]={1,2,3};
+int sum=0;
+for(int i=0;i<arr.length;i++){
+    sum+=arr[i];
+}
+System.out.print("Total:"+sum);
+
 // Average of elements
 // Count even and odd numbers
 // Count positive, negative, zero
