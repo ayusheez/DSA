@@ -57,23 +57,38 @@ public class level2 {
 
 
 // Count positive, negative, zero
-int arr[]={1,2,3,4,0,9,7,5,-5,-7,-3};
-int pos=0; int neg=0; int zero=0;
-for(int i=0;i<arr.length;i++){
-    if(arr[i]>0)
-    pos++;
-    else if(arr[i]<0)
-    neg++;
-    else
-    zero++;
-}
-System.out.println("Positive num:" + pos);
-System.out.println("Negative num:" + neg);
-System.out.println("Zeros num:" + zero);
+// int arr[]={1,2,3,4,0,9,7,5,-5,-7,-3};
+// int pos=0; int neg=0; int zero=0;
+// for(int i=0;i<arr.length;i++){
+//     if(arr[i]>0)
+//     pos++;
+//     else if(arr[i]<0)
+//     neg++;
+//     else
+//     zero++;
+// }
+// System.out.println("Positive num:" + pos);
+// System.out.println("Negative num:" + neg);
+// System.out.println("Zeros num:" + zero);
 
 // Reverse an array
+// int arr[]={1,2,3,4,5,6};
+// for(int i=arr.length-1;i>=0;i--)
+// {
+//     System.out.print(arr[i]);
+// }
 
 // Copy one array into another
+int arr[]={1,2,3,4,5,6};
+int copy[]=new int[arr.length];
+for(int i=0;i<arr.length;i++){
+    copy[i]=arr[i];
+}
+System.out.println("Copied array elements are:");
+for(int i=0;i<copy.length;i++){
+    System.out.print(copy[i]);
+}
+
 // Swap first and last element
 // Swap alternate elements
 
