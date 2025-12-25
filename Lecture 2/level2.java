@@ -25,15 +25,25 @@ public class level2 {
 // System.out.print("Minimum element:"+min);
 
 // Sum of all elements
-int arr[]={1,2,3};
-int sum=0;
-for(int i=0;i<arr.length;i++){
-    sum+=arr[i];
-}
-System.out.print("Total:"+sum);
+// int arr[]={1,2,3};
+// int sum=0;
+// for(int i=0;i<arr.length;i++){
+//     sum+=arr[i];
+// }
+// System.out.print("Total:"+sum);
 
 // Average of elements
+int arr[]={1,2,3,};
+int sum=0;
+for(int i=0;i<arr.length;i++){
+    sum=sum+arr[i];
+}
+double average=sum/arr.length;
+System.out.println("Average:"+average);
+
+
 // Count even and odd numbers
+
 // Count positive, negative, zero
 // Reverse an array
 // Copy one array into another
