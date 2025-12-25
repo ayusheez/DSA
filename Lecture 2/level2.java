@@ -3,17 +3,26 @@ public class level2 {
     public static void main(String args[])
 {
 // Find maximum element
-int arr[]={1,2,34,6,78,99,12,3,54544,2,1,};
-int max=arr[0];
-for(int i=1;i<arr.length;i++){
-    if(arr[i]>max){
-        max=arr[i];
-    }
+// int arr[]={1,2,34,6,78,99,12,3,54544,2,1,};
+// int max=arr[0];
+// for(int i=1;i<arr.length;i++){
+//     if(arr[i]>max){
+//         max=arr[i];
+//     }
 
-}
-System.out.print("Maximum element:"+max);
+// }
+// System.out.print("Maximum element:"+max);
 
 // Find minimum element
+int arr[]={1,-5,-9,78,56,-0};
+int min=arr[0];
+for(int i=1;i<arr.length;i++)
+{
+    if(arr[i]<min){
+        min=arr[i];
+    }
+}
+System.out.print("Minimum element:"+min);
 // Sum of all elements
 // Average of elements
 // Count even and odd numbers
