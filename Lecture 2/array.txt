@@ -1,0 +1,229 @@
+1D array Questions:
+🟢 LEVEL 1: Absolute Basics (must know cold)
+Declare and initialize an array
+Find length of an array
+Access elements using index
+Traverse array using:
+for loop
+enhanced for loop
+Take array input from user
+Print array elements
+If any of these take thinking time, you’re not “perfect” yet.
+🟡 LEVEL 2: Core Logic Questions (non-negotiable)
+Find maximum element
+Find minimum element
+Sum of all elements
+Average of elements
+Count even and odd numbers
+Count positive, negative, zero
+Reverse an array
+Copy one array into another
+Swap first and last element
+Swap alternate elements
+These build raw confidence.
+🟠 LEVEL 3: Searching & Position Logic
+Linear search
+Binary search (array must be sorted)
+Find index of an element
+Find all occurrences of an element
+Count frequency of each element
+Arrays start behaving like puzzles here.
+🔵 LEVEL 4: Sorting (logic builder)
+Sort array in ascending order (manual)
+Sort array in descending order
+Bubble sort
+Selection sort
+Insertion sort
+If you understand why these work, your brain just upgraded.
+🟣 LEVEL 5: Duplicate & Unique Elements
+Find duplicate elements
+Remove duplicate elements
+Print unique elements
+Count duplicate elements
+Find first repeating element
+Welcome to interview land.
+🔴 LEVEL 6: Rotation & Rearrangement
+Rotate array left
+Rotate array right
+Shift all zeros to end
+Move all negative numbers to one side
+Separate even and odd numbers
+Logic + patience test.
+🟤 LEVEL 7: Subarrays & Advanced Thinking
+Largest element in subarray
+Smallest element in subarray
+Maximum subarray sum
+Find subarray with given sum
+Longest increasing subarray
+This is where “perfect” starts meaning something.
+⚫ LEVEL 8: Special Problems (boss level)
+Second largest element
+Second smallest element
+Missing number in array
+Array is palindrome or not
+Merge two arrays
+Intersection of two arrays
+Union of two arrays
+Check if array is sorted
+Find equilibrium index
+If you can solve these without Googling, arrays bow to you.
+Final truth (read twice)
+You don’t master arrays by reading answers.
+You master arrays by:
+Writing logic on paper
+Making mistakes
+Debugging like a detective
+Rewriting solutions cleaner
+Solve these in order.
+No skipping levels. No ego.
+
+
+2D Array Questions:
+🟦 MULTIDIMENSIONAL ARRAYS (2D) – FULL QUESTION SET
+🔹 Basics (foundation)
+
+
+Declare and initialize a 2D array
+
+
+Take 2D array input from user
+
+
+Print a 2D array (row-wise)
+
+
+Find number of rows and columns
+
+
+If this isn’t instant, stop here and practice.
+
+🔹 Row & Column Operations
+
+
+Sum of each row
+
+
+Sum of each column
+
+
+Find row with maximum sum
+
+
+Find column with minimum sum
+
+
+Print row-wise maximum
+
+
+Print column-wise minimum
+
+
+This builds matrix thinking.
+
+🔹 Searching & Counting
+
+
+Search an element in 2D array
+
+
+Count frequency of an element
+
+
+Count even and odd elements
+
+
+Count zeros and non-zeros
+
+
+Simple logic, nested loops training.
+
+🔹 Matrix Properties
+
+
+Check if matrix is square
+
+
+Check if matrix is diagonal
+
+
+Check if matrix is identity matrix
+
+
+Check if matrix is symmetric
+
+
+These appear everywhere. Exams love them.
+
+🔹 Diagonals (important)
+
+
+Print main diagonal
+
+
+Print secondary diagonal
+
+
+Sum of main diagonal
+
+
+Sum of secondary diagonal
+
+
+This is where index logic matters.
+
+🔹 Matrix Operations
+
+
+Matrix addition
+
+
+Matrix subtraction
+
+
+Matrix multiplication
+
+
+Transpose of a matrix
+
+
+If multiplication makes sense, you’re leveling up.
+
+🔹 Pattern-Based 2D Questions
+
+
+Print matrix in spiral order
+
+
+Print matrix in wave form
+
+
+Print matrix in zig-zag order
+
+
+Annoying but powerful.
+
+🔹 Advanced / Interview Level
+
+
+Rotate matrix by 90 degrees
+
+
+Find maximum element in matrix
+
+
+Find minimum element in matrix
+
+
+Check if two matrices are equal
+
+
+Boundary elements of matrix
+
+
+Print lower triangular matrix
+
+
+Print upper triangular matrix
+
+
+Now you’re officially dangero
