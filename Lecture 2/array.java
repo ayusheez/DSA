@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class array {
     public static void main(String args[]) {
-        System.out.println("1D Array");
+        // System.out.println("1D Array");
         // 1.How to Declare and Initialize an array
         int a[] = new int[3];
         a[0] = 12;
@@ -90,11 +90,20 @@ public class array {
         //     System.out.println(result[i]);
 
       //10. printing 3D arrays
-      int x[][]={{1,2,3},{4,5,6},{7,8,9}};
-      int y[][]={{1,2,3},{4,5,6},{7,8,9}};
-      int result[][]=new int[x.length][y.length];
+       int x[][]={{1,2,3},{4,5,6},{7,8,9}};
+       for(int i=0;i<x.length;i++){
+        for(int j=0;j<x[i].length;j++){
+            System.out.print(x[i][j]+ " ");
+        }
+        System.out.println();
+       }
+     
+
 
       //11. Addition of 3D arrays
+    //    int x[][]={{1,2,3},{4,5,6},{7,8,9}};
+    //   int y[][]={{1,2,3},{4,5,6},{7,8,9}};
+    //   int result[][]=new int[x.length][y.length];
     
     
       
