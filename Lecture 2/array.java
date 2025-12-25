@@ -90,9 +90,12 @@ public class array {
         //     System.out.println(result[i]);
 
       //10. printing 3D arrays
+      int x[][]={{1,2,3},{4,5,6},{7,8,9}};
+      int y[][]={{1,2,3},{4,5,6},{7,8,9}};
+      int result[][]=new int[x.length][y.length];
 
       //11. Addition of 3D arrays
-    //   rahul,sunny,sonu,golu,gopichand = 78,98,97,12,45
+    
     
       
         
