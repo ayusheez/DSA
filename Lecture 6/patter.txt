@@ -1,0 +1,23 @@
+//Rules to follow in java patterns
+Step 1: Count rows
+Step 2: For each row, count:
+spaces
+stars / numbers
+Step 3: Write formula (n - i, 2*i - 1)
+Step 4: Code loops
+Step 5: Dry run for n = 4
+
+//do the logic building here dont just copy paste
+
+//Topics
+Square, triangle, inverted triangle
+Number patterns
+Floyd’s triangle
+Repeating numbeer
+Space-based patterns
+Left/right pyramids
+Full pyramid
+Diamond
+Hollow patterns
+Mixed patterns
+
