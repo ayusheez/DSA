@@ -17,8 +17,20 @@ public class function2 {
         System.out.println(sum);
     }
     // Function to check even/odd
+    void check(){
+        int n=2;
+        if(n%2==0){
+            System.out.println("Even Number");
+
+        }
+        else
+        {
+            System.out.println("Odd number");
+        }
+    }
     
     // Function to find square of number
+    
    // Function to convert Celsius → Fahrenheit 
     
 }
