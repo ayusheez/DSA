@@ -1,0 +1,31 @@
+🟢 Beginner Level
+
+Function to print hello
+Function to add two numbers
+Function to check even/odd
+Function to find square of number
+Function to convert Celsius → Fahrenheit
+
+🟡 Intermediate Level
+
+Function to find max of 3 numbers
+Function to check prime number
+Function to calculate factorial
+Function to reverse a number
+Function to count digits
+
+🔵 Advanced Level
+
+Function to check palindrome
+Function to calculate GCD
+Recursive factorial
+Recursive Fibonacci
+Sum of digits using recursion
+
+🔴 Expert Level (for confidence)
+
+Method overloading calculator
+Recursive power function
+Swap two numbers (explain why it fails)
+Nested function calls tracing
+Menu-driven program using methods
