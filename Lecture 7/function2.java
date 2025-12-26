@@ -30,7 +30,15 @@ public class function2 {
     }
     
     // Function to find square of number
-    
+    void square(){
+        System.out.println("Enter number to find square");
+        Scanner scanner=new Scanner(System.in);
+        int n=scanner.nextInt();
+        int square=n*n;
+        System.out.println("Square of "+ n + "is:"+ square);
+        
+    }
+
    // Function to convert Celsius → Fahrenheit 
     
 }
