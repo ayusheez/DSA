@@ -7,6 +7,12 @@ public class function1 {
 
     public static void main(String args[]){
         square(2);
+        greet();
+        arg(2,3);
+        ret();
+        returns();
+        add(8,9);
+
         
     }
 
@@ -40,6 +46,9 @@ static String returns(){
 }
 
 //4.Return and Argument
+static int add(int a , int b){
+    return a+b;
+}
 
 // Predict the output of a method that has a return in the middle.
 
@@ -51,6 +60,9 @@ static String returns(){
 // Find and fix a scope-related error in a method.
 
 // Predict output to prove Java is pass by value.
+static void change(int x){
+    x=100;
+}
 
 // Write two overloaded methods with the same name.
 
