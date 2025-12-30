@@ -29,6 +29,12 @@ public class pattern1 {
             System.out.println();
         }
         // 3.triangle 2
+        for (int k=0;k<=n;k++){
+            for(int j=0;j<=n;j++){
+                System.out.print("Hi Ayushi Gautam Here");
+            }
+            System.out.println();
+        }
         // 3.triangle 3
         // 3.triangle 4
         
