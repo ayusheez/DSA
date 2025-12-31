@@ -125,40 +125,64 @@
 //5.create a Rectangle class
   // length, breadth
   // method to calculate area
-  class Rectangle{
-    double length;
-    double breadth;
-    double area=length*breadth;
+//   class Rectangle{
+//     double length;
+//     double breadth;
+//     double area=length*breadth;
 
-    void area()
-    {
-      System.out.println("Area of "+ length + " and " + breadth+ " is "+ area);
-    }
-
-
-  }
-class class2{
-  public static void main( String args[]){
-    Rectangle obj=new Rectangle();
-    obj.length=20;
-    obj.breadth=60;
-    obj.area();
-    obj.area();
+//     void area()
+//     {
+//       System.out.println("Area of "+ length + " and " + breadth+ " is "+ area);
+//     }
 
 
-  }
-}
+//   }
+// class class2{
+//   public static void main( String args[]){
+//     Rectangle obj=new Rectangle();
+//     obj.length=20;
+//     obj.breadth=60;
+//     obj.area();
+//     obj.area();
+
+
+//   }
+// }
 //6.Create a Laptop class
    //brand, price
    //method to check if price > 50,000
 
-//7.Create a ToDoTask class
-//taskName, isCompleted
-//method markCompleted()
+   class Laptop{
+    String brand;
+    int price;
 
-//8.Create a BankAccount class
-//variables: accountNumber, balance
-//methods: deposit(), withdraw(), displayBalance()
+    void check(){
+      if(price>=50000){
+        System.out.println(brand + " is Expensive laptop");
+      }
+      else
+      {
+        System.out.println(brand + " is cheap Laptop");
+      }
+    }
+   }
+
+   class class2{
+    public static void main(String args[]){
+
+      Laptop obj=new Laptop();
+      obj.brand="Lenovo";
+      obj.price=40000;
+      Laptop obj1=new Laptop();
+      obj1.brand="HP Pavillion";
+      obj1.price=65000;
+      
+      obj.check();
+      obj1.check();
+
+    }
+   }
+
 
 
 
