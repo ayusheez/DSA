@@ -92,38 +92,62 @@
 //4.Create a Student class
     //name, marks
     //method to check pass/fail
-    class Student{
-      String  name;
-      int marks;
+    // class Student{
+    //   String  name;
+    //   int marks;
 
-      void check(){
-        if(marks>=45){
-          System.out.println(name + " is passed");
-        }
-        else{
-          System.out.println(name + " is failed");
-        }
-      }
-    }
-    class class2{
-      public static void main(String args[]){
-        Student obj=new Student();
-        Student obj1=new Student();
-        obj.name="Ayushi Gautam";
-        obj.marks=40;
-        obj1.name="Arshia Chandarki";
-        obj1.marks=90;
+    //   void check(){
+    //     if(marks>=45){
+    //       System.out.println(name + " is passed");
+    //     }
+    //     else{
+    //       System.out.println(name + " is failed");
+    //     }
+    //   }
+    // }
+    // class class2{
+    //   public static void main(String args[]){
+    //     Student obj=new Student();
+    //     Student obj1=new Student();
+    //     obj.name="Ayushi Gautam";
+    //     obj.marks=40;
+    //     obj1.name="Arshia Chandarki";
+    //     obj1.marks=90;
 
-        obj.check();
-        obj1.check();
+    //     obj.check();
+    //     obj1.check();
 
 
-      }
-    }
+    //   }
+    // }
+
+
 //5.create a Rectangle class
   // length, breadth
   // method to calculate area
+  class Rectangle{
+    double length;
+    double breadth;
+    double area=length*breadth;
 
+    void area()
+    {
+      System.out.println("Area of "+ length + " and " + breadth+ " is "+ area);
+    }
+
+
+  }
+class class2{
+  public static void main( String args[]){
+    Rectangle obj=new Rectangle();
+    obj.length=20;
+    obj.breadth=60;
+    obj.area();
+    obj.area();
+
+
+  }
+}
 //6.Create a Laptop class
    //brand, price
    //method to check if price > 50,000
