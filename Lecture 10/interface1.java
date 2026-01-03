@@ -3,6 +3,7 @@ public class interface1 {
         System.out.println("Again hello ;(/n");
         System.out.println("HashMap");
         System.out.println("Mistakee");
+        System.out.println("Mistakee");
     }
     
 }
